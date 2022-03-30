@@ -1,0 +1,9 @@
+{
+  "name": "svelte",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "svelte",
+  "workspaceFolder": "/workspace",
+
+  "forwardPorts": [3000,5000]
+
+}

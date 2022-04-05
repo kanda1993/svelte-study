@@ -10,5 +10,5 @@ RUN npm install -g npm && apt-get update && apt-get install -y vim
 # ディレクトリを移動する
 WORKDIR /app
 
-# ポート3000番:node, 5000:svelte使う時のデフォルト？
-EXPOSE 3000 5000
+# ポート3000番:node
+EXPOSE 3000

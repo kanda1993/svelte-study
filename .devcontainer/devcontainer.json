@@ -3,7 +3,7 @@
   "dockerComposeFile": "docker-compose.yml",
   "service": "svelte",
   "workspaceFolder": "/workspace",
-
+  "extensions": ["svelte.svelte-vscode"],
   "forwardPorts": [3000]
 
 }
